@@ -8,8 +8,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#820000", // Deep red
+        secondary: "#4E6C50", // Olive green
+        accent: "#F2DEBA", // Cream beige
+        background: "#FAECD6", // Soft peach
+        text: "#111827", // (Keep this as the base dark text color)
+        hover: "#C00000", // A slightly brighter red for hover states
+      },
+      fontFamily: {
+        arabic: ["var(--font-vazirmatn)"],
       },
     },
   },
