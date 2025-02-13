@@ -1,5 +1,10 @@
 import Link from "next/link";
-import { FaInstagram, FaFacebook, FaTiktok, FaEnvelope } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaFacebook,
+  FaWhatsapp,
+  FaEnvelope,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -18,25 +23,19 @@ const Footer = () => {
         {/* Social Media Links (Flipped on mobile) */}
         <div className="flex justify-center md:justify-end gap-4 order-1 md:order-2 mb-6 md:mb-0">
           <a
-            href="https://instagram.com"
+            href="https://instagram.com/sinolinker"
             className="text-white hover:text-gray-300 transition-colors duration-300"
           >
             <FaInstagram size={24} />
           </a>
           <a
-            href="https://facebook.com"
+            href="https://wa.me/212628109552"
             className="text-white hover:text-gray-300 transition-colors duration-300"
           >
-            <FaFacebook size={24} />
+            <FaWhatsapp size={24} />
           </a>
           <a
-            href="https://tiktok.com"
-            className="text-white hover:text-gray-300 transition-colors duration-300"
-          >
-            <FaTiktok size={24} />
-          </a>
-          <a
-            href="mailto:info@sinolink.com"
+            href="mailto:contact@sinolink.info"
             className="text-white hover:text-gray-300 transition-colors duration-300"
           >
             <FaEnvelope size={24} />
